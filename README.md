@@ -220,34 +220,34 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
   <li>Responsividade - Home Slider - Texto e thumb - Parte 1</li>
   <li>Pesponsividade - Home Slider - Texto e thumb - Parte 2</li>
   <li>Responsividade - Home Slider - Texto e thumb - Parte 3</li>
-  Responsividade - Home Slider - Texto e thumb - Parte 4
-  Responsividade - Home Slider - Texto e thumb - Parte 5
-  Responsividade - Home Slider - Texto e thumb - Parte 6
-  Responsividade - Home - Ajustando o modal overlay
-  Home - Corrigindo animação de scroll down
-  Responsividade - Home - Revisando e corrigindo bugs
-  Responsividade - Portfolio - Parte 1
-  Responsividade - Portfolio - Parte 2
-  Responsividade - Portfolio - Parte 3
-  Responsividade - Portfolio - Parte 4
-  Responsividade - Detalhes Projeto - Visão geral
-  Responsividade - Detalhes Projeto - Banner topo - Parte 1
-  Responsividade - Detalhes Projeto - Banner topo - Parte 2
-  Responsividade - Detalhes Projeto - Corpo da página
-  Responsividade - Detalhes Projeto - Galeria
-  Responsividade - Sobre - Visão geral
-  Responsividade - Sobre - Imagem sobre
-  Responsividade - Sobre - Texto sobre
-  Responsividade - Sobre - Alinhamento
-  Melhoramentos - Menu mobile
-  elhoramentos - Corrigindo erros e warnings do console
-  Melhoramentos - Topbar background on scroll - Parte 1
-  Melhoramentos - Topbar background on scroll - Parte 2
-  Melhoramentos - Refatorando a borda da página
-  Melhoramentos - Hover nos thumbs da galeria - Parte 1
-  Melhoramentos - Hover nos thumbs da galeria - Parte 2
-  Melhoramentos - Fazendo a página de erro 404
-  Melhoramentos - Refatorando botões e corrigindo animação de scroll down
+  <li>Responsividade - Home Slider - Texto e thumb - Parte 4</li>
+  <li>Responsividade - Home Slider - Texto e thumb - Parte 5</li>
+  <li>Responsividade - Home Slider - Texto e thumb - Parte 6</li>
+  <li>Responsividade - Home - Ajustando o modal overlay</li>
+  <li>Home - Corrigindo animação de scroll down</li>
+  <li>Responsividade - Home - Revisando e corrigindo bugs</li>
+  <li>Responsividade - Portfolio - Parte 1</li>
+  <li>Responsividade - Portfolio - Parte 2</li>
+  <li>Responsividade - Portfolio - Parte 3</li>
+  <li>Responsividade - Portfolio - Parte 4</li>
+  <li>Responsividade - Detalhes Projeto - Visão geral</li>
+  <li>Responsividade - Detalhes Projeto - Banner topo - Parte 1</li>
+  <li>Responsividade - Detalhes Projeto - Banner topo - Parte 2</li>
+  <li>Responsividade - Detalhes Projeto - Corpo da página</li>
+  <li>Responsividade - Detalhes Projeto - Galeria</li>
+  <li>Responsividade - Sobre - Visão geral</li>
+  <li>Responsividade - Sobre - Imagem sobre</li>
+  <li>Responsividade - Sobre - Texto sobre</li>
+  <li>Responsividade - Sobre - Alinhamento</li>
+  <li>Melhoramentos - Menu mobile</li>
+  <li>Melhoramentos - Corrigindo erros e warnings do console</li>
+  <li>Melhoramentos - Topbar background on scroll - Parte 1</li>
+  <li>Melhoramentos - Topbar background on scroll - Parte 2</li>
+  <li>Melhoramentos - Refatorando a borda da página</li>
+  <li>Melhoramentos - Hover nos thumbs da galeria - Parte 1</li>
+  <li>Melhoramentos - Hover nos thumbs da galeria - Parte 2</li>
+  <li>Melhoramentos - Fazendo a página de erro 404</li>
+  <li>Melhoramentos - Refatorando botões e corrigindo animação de scroll down</li>
 </ul>
 
 
