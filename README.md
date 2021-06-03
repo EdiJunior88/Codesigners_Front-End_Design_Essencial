@@ -250,8 +250,28 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
   <li>Melhoramentos - Refatorando botões e corrigindo animação de scroll down</li>
 </ul>
 
+<hr>
 
+<h3>Seção 8: Publicando o Site</h3>
+<ul>
+  <li>Entendendo a relação entre Client e Server</li>
+  <li>Instalando um servidor local</li>
+  <li>Tornando as URLs amigáveis</li>
+  <li>Corrigindo e finalizando URLs amigáveis</li>
+  <li>Critérios de performance do Google Speed Insights</li>
+  <li>Otimizando e comprimindo imagens</li>
+  <li>Otimizando e minificando HTML, CSS e Javascript</li>
+  <li>Adicionando o domínio ao servidor e criando conta FTP</li>
+  <li>Enviando os arquivos o servidor via FTP</li>
+  <li>Configurando DNS e apontando o domínio para o servidor</li>
+  <li>Corrigindo ERR_NAME_NOT_RESOLVED</li>
+  <li>Configurando a página de Erro 404 no servidor</li>
+  <li>Revisão Final - Identificando Bugs</li>
+  <li>Revisão Final - Corrigindo bugs</li>
+  <li>Publicando arquivos corrigidos</li>
+</ul>
 
+<hr>
 
 <h4><b>Aulas:</b> :vhs: 215 video-aulas + 49hrs totais de vídeo</h4>
 <h4><b>Status do Curso:</b> :speech_balloon: Estudando</h4>
