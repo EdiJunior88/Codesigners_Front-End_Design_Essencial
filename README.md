@@ -171,55 +171,55 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
   <li>Portfolio Home (Slider) - Sincronizando os navigator items</li>
   <li>Portfolio Home (Slider) - Animando os navigator items</li>
   <li>Portfolio Home (Slider) - Trocando o navigator number</li>
-  Portfolio Home (Slider) - Complemento - Referência no grid system
-  Portfolio Home (Slider) - Posicionando o slide info
-  Portfolio Home (Slider) - Posicionando o slide thumbnail
-  Portfolio Home (Slider) - Animando elementos do slide - Parte 1
-  Portfolio Home (Slider) - Animando elementos do slide - Parte 2
-  Portfolio Home (Slider) - Melhorando botões e finalizando Home
-  Page Portfolio - Visão geal
-  Page Portfolio - Complemento - Navegando entre arquivos HTML
-  Page Portfolio - Estruturando o HTML - Parte 1
-  Page Portfolio - Estruturando o HTML - Parte 2
-  Page Portfolio - Iniciando a listagem de projetos
-  Page Portfolio - Refatorando a listagem de projetos
-  Page Portfolio - Alternando itens na lista de projetos - Parte 1
-  Page Portfolio - Alternando itens na lista de projetos - Parte 2
-  Page Portfolio - Animando itens On Scroll
-  Page Sobre - Visão geral
-  Page Sobre - Estruturando as colunas
-  Page Sobre - Inserindo imagens e textos
-  Page Sobre - Fazendo imagem responsiva e lista padrão
-  Page Sobre - Fazendo ícones de contato
-  Page Detalhes - Visão geral
-  Page Detalhes - Hero banner - Parte 1
-  Page Detalhes - Hero banner - Parte 2
-  Page Detalhes - Hero banner - Parte 3
-  Page Detalhes - Estruturando post sections
-  Page Detalhes - Inserindo texto, imagens e parallax
-  Page Detalhes - Fazendo os thumbs da galeria
-  Page Detalhes - Refinando o alinhamento dos elementos
-  Page Detalhes - Fazendo lazy loading dos thumbs - Parte 1
-  Page Detalhes - Fazendo lazy loading dos thumbs - Parte 2
-  Page Detalhes - Galeria Overlay - Posicionando o modal
-  Page Detalhes - Galeria Overlay - Carregando imagem no frame
-  Page Detalhes - Galeria Overlay - Toggle modal
-  Page Detalhes - Galeria Overlay - Definindo lógica do Next/Prev
-  Page Detalhes - Galeria Overlay - Fazendo Next/Prev Javascript
-  Page Detalhes - Galeria Overlay - Contador de itens
-  Page Detalhes - Galeria Overlay - Posicionando skeleton loading
-  Page Detalhes - Galeria Overlay - Animando skeleton loading
-  Page Detalhes - Galeria Overlay - Skeleton loading Javascript
-  Responsividade - Introdução
-  Responsividade - Menu mobile - Parte 1
-  Responsividade - Menu mobile - Parte 2
-  Responsividade - Menu mobile - Parte 3
-  Responsividade - Home - Section apresentação - Parte 1
-  Responsividade - Home - Section apresentação - Parte 2
-  Responsividade - Home Slider - Visão geral
-  Responsividade - Home Slider - Texto e thumb - Parte 1
-  Pesponsividade - Home Slider - Texto e thumb - Parte 2
-  Responsividade - Home Slider - Texto e thumb - Parte 3
+  <li>Portfolio Home (Slider) - Complemento - Referência no grid system</li>
+  <li>Portfolio Home (Slider) - Posicionando o slide info</li>
+  <li>Portfolio Home (Slider) - Posicionando o slide thumbnail</li>
+  <li>Portfolio Home (Slider) - Animando elementos do slide - Parte 1</li>
+  <li>Portfolio Home (Slider) - Animando elementos do slide - Parte 2</li>
+  <li>Portfolio Home (Slider) - Melhorando botões e finalizando Home</li>
+  <li>Page Portfolio - Visão geal</li>
+  <li>Page Portfolio - Complemento - Navegando entre arquivos HTML</li>
+  <li>Page Portfolio - Estruturando o HTML - Parte 1</li>
+  <li>Page Portfolio - Estruturando o HTML - Parte 2</li>
+  <li>Page Portfolio - Iniciando a listagem de projetos</li>
+  <li>Page Portfolio - Refatorando a listagem de projetos</li>
+  <li>Page Portfolio - Alternando itens na lista de projetos - Parte 1</li>
+  <li>Page Portfolio - Alternando itens na lista de projetos - Parte 2</li>
+  <li>Page Portfolio - Animando itens On Scroll</li>
+  <li>Page Sobre - Visão geral</li>
+  <li>Page Sobre - Estruturando as colunas</li>
+  <li>Page Sobre - Inserindo imagens e textos</li>
+  <li>Page Sobre - Fazendo imagem responsiva e lista padrão</li>
+  <li>Page Sobre - Fazendo ícones de contato</li>
+  <li>Page Detalhes - Visão geral</li>
+  <li>Page Detalhes - Hero banner - Parte 1</li>
+  <li>Page Detalhes - Hero banner - Parte 2</li>
+  <li>Page Detalhes - Hero banner - Parte 3</li>
+  <li>Page Detalhes - Estruturando post sections</li>
+  <li>Page Detalhes - Inserindo texto, imagens e parallax</li>
+  <li>Page Detalhes - Fazendo os thumbs da galeria</li>
+  <li>Page Detalhes - Refinando o alinhamento dos elementos</li>
+  <li>Page Detalhes - Fazendo lazy loading dos thumbs - Parte 1</li>
+  <li>Page Detalhes - Fazendo lazy loading dos thumbs - Parte 2</li>
+  <li>Page Detalhes - Galeria Overlay - Posicionando o modal</li>
+  <li>Page Detalhes - Galeria Overlay - Carregando imagem no frame</li>
+  <li>Page Detalhes - Galeria Overlay - Toggle modal</li>
+  <li>Page Detalhes - Galeria Overlay - Definindo lógica do Next/Prev</li>
+  <li>Page Detalhes - Galeria Overlay - Fazendo Next/Prev Javascript</li>
+  <li>Page Detalhes - Galeria Overlay - Contador de itens</li>
+  <li>Page Detalhes - Galeria Overlay - Posicionando skeleton loading</li>
+  <li>Page Detalhes - Galeria Overlay - Animando skeleton loading</li>
+  <li>Page Detalhes - Galeria Overlay - Skeleton loading Javascript</li>
+  <li>Responsividade - Introdução</li>
+  <li>Responsividade - Menu mobile - Parte 1</li>
+  <li>Responsividade - Menu mobile - Parte 2</li>
+  <li>Responsividade - Menu mobile - Parte 3</li>
+  <li>Responsividade - Home - Section apresentação - Parte 1</li>
+  <li>Responsividade - Home - Section apresentação - Parte 2</li>
+  <li>Responsividade - Home Slider - Visão geral</li>
+  <li>Responsividade - Home Slider - Texto e thumb - Parte 1</li>
+  <li>Pesponsividade - Home Slider - Texto e thumb - Parte 2</li>
+  <li>Responsividade - Home Slider - Texto e thumb - Parte 3</li>
   Responsividade - Home Slider - Texto e thumb - Parte 4
   Responsividade - Home Slider - Texto e thumb - Parte 5
   Responsividade - Home Slider - Texto e thumb - Parte 6
