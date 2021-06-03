@@ -44,5 +44,27 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 
 <hr>
 
+<h3>Seção 3: Layouts, Grids e Flexbox</h3>
+
+<ul>
+  <li>Tipos de layout web</li>
+  <li>O que é design responsivo</li>
+  <li>Fazendo design responsivo com Media Queries</li>
+  <li>Sistemas de grid</li>
+  <li>Customizando e Baixando o Bootstrap Grid System</li>
+  <li>Usando o Bootstrap Grid System</li>
+  <li>Flexbox - Intro</li>
+  <li>Flexbox - Display Flex e Flex-Direction</li>
+  <li>Flexbox - Flex-Wrap</li>
+  <li>Flexbox - Justify-Content</li>
+  <li>Flexbox - Align-Items</li>
+  Flexbox - Align-Content
+  <li>Flexbox - Order</li>
+  <li>Flexbox - Flex-Grow</li>
+  <li>Flexbox - Flex-Shrink</li>
+  <li>Flexbox - Flex 'Shorthand'</li>
+  <li>Flexbox - Align-Self</li>
+</ul>
+
 <h4><b>Aulas:</b> :vhs: 215 video-aulas + 49hrs totais de vídeo</h4>
 <h4><b>Status do Curso:</b> :speech_balloon: Estudando</h4>
