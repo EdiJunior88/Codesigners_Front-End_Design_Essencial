@@ -117,6 +117,141 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 
 <hr>
 
+<h3>Seção 6: JQuery (opcional)</h3>
+<ul>
+  <li>JQuery - Ressalva</li>
+  <li>JQuery - Versões</li>
+  <li>JQuery - Seletores e CSS</li>
+  <li>JQuery - Exercício Busca Gato - Parte 1</li>
+  <li>JQuery - Exercício Busca Gato - Parte 2</li>
+  <li>JQuery - Add, Remove e Toggle Class</li>
+</ul>
+
+<hr>
+
+<h3>Seção 7: Projeto Final</h3>
+<ul>
+  <li>Conhecendo o layout</li>
+  <li>Estruturando o projeto</li>
+  <li>Estrutura básica do CSS e Page Wrapper</li>
+  <li>Topbar - Posicionando o logo</li>
+  <li>Topbar - Fazendo o menu desktop - Parte 1</li>
+  <li>Topbar - Fazendo o menu desktop - Parte 2</li>
+  <li>Complemento - Explicação rápida sobre transform-origin</li>
+  <li>Contato - Fazendo o botão de contato</li>
+  <li>Utilitários - Criando as primeiras classes utilitárias</li>
+  <li>Contato - Fazendo a box de contato - Parte 1</li>
+  <li>Contato - Fazendo a box de contato - Parte 2</li>
+  <li>Contato - Fazendo o Toggle Click no botão de contato</li>
+  <li>Preloader - Fazendo a tela de preloader com HTML e CSS</li>
+  <li>Preloader - Fazendo o Javascript da tela de preloader</li>
+  <li>IMPORTANTE! Correção do Preloader que ficou fora da aula anterior</li>
+  <li>Hero - Grid, texto e imagem - Parte 1</li>
+  <li>Hero - Grid, texto e imagem - Parte 2</li>
+  <li>Seta Scroll - Animação de scroll down - Parte 1</li>
+  <li>Seta Scroll - Animação de scroll down - Parte 2</li>
+  <li>Botões - Criando um sistema de botões - Parte 1</li>
+  <li>Botões - Criando um sistema de Botões - Parte 2</li>
+  <li>Modal - Posicionando o overlay e caixa de modal</li>
+  <li>Modal - Fazendo o formulário - Parte 1</li>
+  <li>Modal - Fazendo o formulário - Parte 2</li>
+  <li>Modal - Fazendo o Javascript</li>
+  <li>Waypoints - Animando elementos On Scroll</li>
+  <li>Portfolio Home (Slider) - Organizando colunas da grid</li>
+  <li>Portfolio Home (Slider) - Posicionando o navigator e seus elementos</li>
+  <li>Portfolio Home (Slider) - Formatando elementos do navigator</li>
+  <li>Portfolio Home (Slider) - Formatando setas e números</li>
+  <li>Portfolio Home (Slider) - Como irá funcionar o slider</li>
+  <li>Portfolio Home (Slider) - Marcando os blocos do slider</li>
+  <li>Portfolio Home (Slider) - Passando larguras dinâmicamente para os blocos</li>
+  <li>Portfolio Home (Slider) - Fazendo o slider funcionar com Anime JS</li>
+  <li>Portfolio Home (Slider) - Refatorando o código do slider e design patterns</li>
+  <li>Portfolio Home (Slider) - Slide counter - Parte 1</li>
+  <li>Portfolio Home (Slider) - Slider counter - Parte 2</li>
+  <li>Portfolio Home (Slider) - Sincronizando os navigator items</li>
+  <li>Portfolio Home (Slider) - Animando os navigator items</li>
+  <li>Portfolio Home (Slider) - Trocando o navigator number</li>
+  Portfolio Home (Slider) - Complemento - Referência no grid system
+  Portfolio Home (Slider) - Posicionando o slide info
+  Portfolio Home (Slider) - Posicionando o slide thumbnail
+  Portfolio Home (Slider) - Animando elementos do slide - Parte 1
+  Portfolio Home (Slider) - Animando elementos do slide - Parte 2
+  Portfolio Home (Slider) - Melhorando botões e finalizando Home
+  Page Portfolio - Visão geal
+  Page Portfolio - Complemento - Navegando entre arquivos HTML
+  Page Portfolio - Estruturando o HTML - Parte 1
+  Page Portfolio - Estruturando o HTML - Parte 2
+  Page Portfolio - Iniciando a listagem de projetos
+  Page Portfolio - Refatorando a listagem de projetos
+  Page Portfolio - Alternando itens na lista de projetos - Parte 1
+  Page Portfolio - Alternando itens na lista de projetos - Parte 2
+  Page Portfolio - Animando itens On Scroll
+  Page Sobre - Visão geral
+  Page Sobre - Estruturando as colunas
+  Page Sobre - Inserindo imagens e textos
+  Page Sobre - Fazendo imagem responsiva e lista padrão
+  Page Sobre - Fazendo ícones de contato
+  Page Detalhes - Visão geral
+  Page Detalhes - Hero banner - Parte 1
+  Page Detalhes - Hero banner - Parte 2
+  Page Detalhes - Hero banner - Parte 3
+  Page Detalhes - Estruturando post sections
+  Page Detalhes - Inserindo texto, imagens e parallax
+  Page Detalhes - Fazendo os thumbs da galeria
+  Page Detalhes - Refinando o alinhamento dos elementos
+  Page Detalhes - Fazendo lazy loading dos thumbs - Parte 1
+  Page Detalhes - Fazendo lazy loading dos thumbs - Parte 2
+  Page Detalhes - Galeria Overlay - Posicionando o modal
+  Page Detalhes - Galeria Overlay - Carregando imagem no frame
+  Page Detalhes - Galeria Overlay - Toggle modal
+  Page Detalhes - Galeria Overlay - Definindo lógica do Next/Prev
+  Page Detalhes - Galeria Overlay - Fazendo Next/Prev Javascript
+  Page Detalhes - Galeria Overlay - Contador de itens
+  Page Detalhes - Galeria Overlay - Posicionando skeleton loading
+  Page Detalhes - Galeria Overlay - Animando skeleton loading
+  Page Detalhes - Galeria Overlay - Skeleton loading Javascript
+  Responsividade - Introdução
+  Responsividade - Menu mobile - Parte 1
+  Responsividade - Menu mobile - Parte 2
+  Responsividade - Menu mobile - Parte 3
+  Responsividade - Home - Section apresentação - Parte 1
+  Responsividade - Home - Section apresentação - Parte 2
+  Responsividade - Home Slider - Visão geral
+  Responsividade - Home Slider - Texto e thumb - Parte 1
+  Pesponsividade - Home Slider - Texto e thumb - Parte 2
+  Responsividade - Home Slider - Texto e thumb - Parte 3
+  Responsividade - Home Slider - Texto e thumb - Parte 4
+  Responsividade - Home Slider - Texto e thumb - Parte 5
+  Responsividade - Home Slider - Texto e thumb - Parte 6
+  Responsividade - Home - Ajustando o modal overlay
+  Home - Corrigindo animação de scroll down
+  Responsividade - Home - Revisando e corrigindo bugs
+  Responsividade - Portfolio - Parte 1
+  Responsividade - Portfolio - Parte 2
+  Responsividade - Portfolio - Parte 3
+  Responsividade - Portfolio - Parte 4
+  Responsividade - Detalhes Projeto - Visão geral
+  Responsividade - Detalhes Projeto - Banner topo - Parte 1
+  Responsividade - Detalhes Projeto - Banner topo - Parte 2
+  Responsividade - Detalhes Projeto - Corpo da página
+  Responsividade - Detalhes Projeto - Galeria
+  Responsividade - Sobre - Visão geral
+  Responsividade - Sobre - Imagem sobre
+  Responsividade - Sobre - Texto sobre
+  Responsividade - Sobre - Alinhamento
+  Melhoramentos - Menu mobile
+  elhoramentos - Corrigindo erros e warnings do console
+  Melhoramentos - Topbar background on scroll - Parte 1
+  Melhoramentos - Topbar background on scroll - Parte 2
+  Melhoramentos - Refatorando a borda da página
+  Melhoramentos - Hover nos thumbs da galeria - Parte 1
+  Melhoramentos - Hover nos thumbs da galeria - Parte 2
+  Melhoramentos - Fazendo a página de erro 404
+  Melhoramentos - Refatorando botões e corrigindo animação de scroll down
+</ul>
+
+
+
 
 <h4><b>Aulas:</b> :vhs: 215 video-aulas + 49hrs totais de vídeo</h4>
 <h4><b>Status do Curso:</b> :speech_balloon: Estudando</h4>
