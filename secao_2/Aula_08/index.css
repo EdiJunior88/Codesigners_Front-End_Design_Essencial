@@ -1,0 +1,17 @@
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 54px;
+  color: #f0ca10;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: rgb(11, 207, 11);
+}
+
+.txt-azul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: blue;
+}
