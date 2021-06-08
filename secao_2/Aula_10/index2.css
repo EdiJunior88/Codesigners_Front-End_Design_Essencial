@@ -1,0 +1,20 @@
+.box-orange {
+  width: 300px;
+  height: 300px;
+  float: left;
+  background-color: rgb(255, 153, 102);
+}
+
+.box-blue {
+  width: 300px;
+  height: 300px;
+  float: left;
+  background-color: #3333ff;
+}
+
+.box-yellow {
+  width: 300px;
+  height: 300px;
+  float: left;
+  background-color: gold;
+}
