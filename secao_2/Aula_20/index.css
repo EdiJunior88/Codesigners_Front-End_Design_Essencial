@@ -1,0 +1,33 @@
+body {
+  background-color: #f2f4f5;
+  margin: 0;
+}
+
+main {
+  width: 70%;
+  display: table;
+  margin: 100px auto 0 auto;
+}
+
+.card-container {
+  width: 270px;
+  display: table;
+}
+
+.card {
+  width: 100%;
+  display: table;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.card .card-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+}
