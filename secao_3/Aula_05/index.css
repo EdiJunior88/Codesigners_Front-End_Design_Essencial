@@ -1,0 +1,11 @@
+table {
+  border-collapse: collapse;
+}
+
+table td {
+  border: 3px solid black;
+  padding: 5px 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
