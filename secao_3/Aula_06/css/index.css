@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.my-box {
+  background-color: blue;
+  height: 100px;
+}
+
+.my-box div {
+  height: 80px;
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+}
+
+.my-box .div-1 {
+  background-color: purple;
+}
+
+.my-box .div-2 {
+  background-color: red;
+}
+
+.my-box .div-3 {
+  background-color: black;
+}
