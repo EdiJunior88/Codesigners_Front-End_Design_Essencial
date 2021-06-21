@@ -1,0 +1,11 @@
+.my-container {
+  width: 80%;
+  margin: 60px auto;
+  background-color: #8a00cf;
+  border-radius: 8px;
+}
+
+.my-item {
+  background-color: #21f8bb;
+  border-radius: 8px;
+}
