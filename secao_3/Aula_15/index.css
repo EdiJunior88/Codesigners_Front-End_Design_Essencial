@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+.my-container {
+  display: flex;
+  width: 80%;
+  height: 600px;
+  margin: 60px auto;
+  background-color: #8a00cf;
+  border-radius: 8px;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.my-item {
+  height: 50px;
+  background-color: #21f8bb;
+  border-radius: 8px;
+  padding: 30px;
+  border: 4px solid white;
+  flex-basis: 300px;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.order-3 {
+  order: 3;
+}
+
+.order-4 {
+  order: 4;
+}
+
+.grow-1 {
+  flex-grow: 1;
+}
+
+.grow-2 {
+  flex-grow: 2;
+}
+
+.grow-5 {
+  flex-grow: 5;
+}
+
+
+.shrink-1 {
+  flex-shrink: 1;
+}
+
+.shrink-2 {
+  flex-shrink: 2;
+}
+
+.shrink-5 {
+  flex-shrink: 5;
+}
