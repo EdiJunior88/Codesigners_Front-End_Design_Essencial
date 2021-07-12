@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+.my-container {
+  display: flex;
+  width: 80%;
+  height: 600px;
+  margin: 60px auto;
+  background-color: #8a00cf;
+  border-radius: 8px;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.my-item {
+  height: 50px;
+  background-color: #21f8bb;
+  border-radius: 8px;
+  padding: 30px;
+  border: 4px solid white;
+  flex-basis: 5%;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.order-3 {
+  order: 3;
+}
+
+.order-4 {
+  order: 4;
+}
+
+.grow-1 {
+  flex-grow: 1;
+}
+
+.grow-2 {
+  flex-grow: 2;
+}
+
+.grow-5 {
+  flex-grow: 5;
+}
