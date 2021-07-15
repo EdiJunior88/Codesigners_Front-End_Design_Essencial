@@ -1,0 +1,55 @@
+@keyframes myBoxAnim {
+  0% {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border-radius: 0;
+  }
+  30% {
+    background-color: red;
+    width: 400px;
+    height: 100px;
+    transform: translate(300px, 300px) rotate(0deg);
+    border-radius: 0;
+  }
+  70% {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    transform: translate(0, 0) rotate(0deg);
+    border-radius: 50%;
+  }
+  100% {
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    transform: translate(800px, 600px) rotate(360deg);
+    border-radius: 0;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 80%;
+  height: 800px;
+  display: table;
+  background-color: #c3c5c6;
+  margin: 100px auto;
+}
+
+.quadrado {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  transition: all 3s ease-in;
+  animation: myBoxAnim 3s infinite;
+}
+
+.quadrado-anim {
+  animation: myBoxAnim 3s forwards;
+}
