@@ -1,0 +1,25 @@
+@keyframes btnAnim {
+  0% {
+
+  }
+  50% {
+
+  }
+  100% {
+
+  }
+}
+
+.btn {
+  width: 200px;
+  height: 64px;
+  display: block;
+  border-radius: 6px;
+  border: 2px solid blue;
+  margin: 100px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 64px;
+  text-decoration: none;
+  color: #ff0099;
+}
