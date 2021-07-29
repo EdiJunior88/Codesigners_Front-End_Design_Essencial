@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seletores - Parte 1</title>
+  <style>
+    h1 {
+      width: 300px;
+      height: 50px;
+      margin: 15px auto;
+      display: block;
+      background-color: #f2f2f2;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      line-height: 50px;
+    }
+  </style>
+</head>
+<body style="text-align: center; margin-top: 100px;">
+  <h1 class="item-azul">Azul 1</h1>
+  <h1 class="item-azul">Azul 2</h1>
+  <h1 class="item-azul">Azul 3</h1>
+
+  <h1 class="item-vermelho">Vermelho 1</h1>
+  <h1 class="item-vermelho">Vermelho 2</h1>
+  <h1 class="item-vermelho">Vermelho 3</h1>
+
+  <script>
+
+    var azul = document.querySelectorAll('.item-azul');
+    console.log(azul[1]);
+
+  </script>
+</body>
+</html>
