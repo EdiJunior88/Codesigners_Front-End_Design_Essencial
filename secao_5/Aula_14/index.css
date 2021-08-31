@@ -1,0 +1,15 @@
+.box {
+  width: 450px;
+  height: 200px;
+  display: block;
+  margin: 60px auto;
+  background-color: indigo;
+  color: mediumspringgreen;
+  text-align: center;
+  line-height: 200px;
+  font-size: 41px;
+  font-family: monospace;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: grayscale;
+}
