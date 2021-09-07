@@ -2,10 +2,12 @@ var listaFrutas = document.getElementById('frutas');
 
 var frutas = ["Laranja", "Kiwi", "Morango"];
 
-frutas.push("Uva");
+var mnyList = [];
 
-console.log(frutas)
+console.log(mnyList);
 
-frutas.pop();
+for(var i = 0; frutas.length > i; i++){
+  mnyList.push("<li>" + frutas[i] + "</li>")
+}
 
-console.log(frutas)
+listaFrutas.insertAdjacentHTML('beforeend', mnyList.join(''));
