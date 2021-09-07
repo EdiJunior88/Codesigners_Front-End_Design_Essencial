@@ -1,0 +1,22 @@
+
+.frutas {
+  width: 450px;
+  height: auto;
+  display: table;
+  padding: 30px;
+  margin: 60px auto;
+  background-color: indigo;
+  border-radius: 8px;
+  list-style: none;
+}
+
+.frutas li {
+  color: mediumspringgreen;
+  text-align: center;
+  line-height: 41px;
+  font-size: 41px;
+  font-family: monospace;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
