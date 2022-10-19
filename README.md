@@ -273,5 +273,15 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 
 <hr>
 
+<h3>Tempo Estudando o Curso</h3>
+
+<p>
+   <a href="https://wakatime.com/badge/github/EdiJunior88/Codesigners_Front-End_Design_Essencial">
+     <img src="https://wakatime.com/badge/github/EdiJunior88/Codesigners_Front-End_Design_Essencial.svg" alt="wakatime">
+   </a>
+</p>
+
+<hr>
+
 <h4><b>Aulas:</b> :vhs: 215 video-aulas + 49hrs totais de vídeo</h4>
 <h4><b>Status do Curso:</b> :speech_balloon: Estudando</h4>
