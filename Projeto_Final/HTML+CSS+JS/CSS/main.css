@@ -5,12 +5,38 @@
 }
 
 @media screen and (min-width: 320px) {
-  .jl-page-wrapper{
+  .jl-page-wrapper {
     width: 100%;
     height: 100vh;
     display: block;
     background: #1c1c1c;
     border: 30px solid #000;
+  }
+
+  .jl-topbar {
+    width: 100%;
+    height: 110px;
+    display: block;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .jl-logo {
+    width: 74px;
+    height: 110px;
+    float: left;
+    margin-left: 60px;
+    background: #2ccb69;
+    border-radius: 0 0 37px 0;
+  }
+
+  .jl-logo img {
+    width: 46px;
+    height: 31px;
+    display: block;
+    margin: 55px auto 0;
   }
 }
 
