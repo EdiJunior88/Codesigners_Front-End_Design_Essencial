@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+/* font-family: 'Open Sans', sans-serif;
+  font-family: 'Abril Fatface', cursive;
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -38,6 +45,10 @@
     display: block;
     margin: 55px auto 0;
   }
+
+  .jl-menu {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -47,6 +58,27 @@
 }
 
 @media screen and (min-width: 992px) {
+  .jl-menu {
+    display: table;
+    float: left;
+    height: 110px;
+    margin-left: 30px;
+  }
+
+  .jl-menu a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #bcbcbc;
+    text-transform: lowercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 20px;
+    margin-top: 50px;
+  }
+
+  .jl-menu a:first-child {
+    padding-left: 0;
+  }
 }
 
 @media screen and (min-width: 1200px) {
