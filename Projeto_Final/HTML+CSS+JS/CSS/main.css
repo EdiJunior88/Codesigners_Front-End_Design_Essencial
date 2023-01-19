@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
-/* font-family: 'Open Sans', sans-serif;
-  font-family: 'Abril Fatface', cursive;
-*/
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
 }
 
 @media screen and (min-width: 320px) {
@@ -65,6 +65,22 @@
 
   .jl-btn-contact:hover {
     background-position-y: -45px;
+  }
+
+  .jl-contact-info {
+    width: 245px;
+    height: 165px;
+    padding: 25px;
+    position: fixed;
+    bottom: 115px;
+    right: 65px;
+    z-index: 200;
+  }
+
+  .jl-social-links {
+    width: 100%;
+    height: 45px;
+    display: block;
   }
 }
 
@@ -132,20 +148,25 @@
 
 /* ########### CLASSES UTILITÁRIAS ########### */
 
+.jl-title {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+}
+
 .jl-text-green {
-  background: #2ccb69;
+  color: #2ccb69;
 }
 
 .jl-text-dark {
-  background: #4d4c4c;
+  color: #4d4c4c;
 }
 
 .jl-text-light {
-  background: #bcbcbc;
+  color: #bcbcbc;
 }
 
 .jl-text-black {
-  background: #000;
+  color: #000;
 }
 
 .jl-bg-green {
