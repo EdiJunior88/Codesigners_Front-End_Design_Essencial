@@ -66,18 +66,39 @@
   }
 
   .jl-menu a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
+    font-weight: 400;
     color: #bcbcbc;
     text-transform: lowercase;
     text-decoration: none;
     display: inline-block;
-    padding: 0 20px;
-    margin-top: 50px;
+    margin: 50px 20px 0 20px;
+    position: relative;
   }
 
   .jl-menu a:first-child {
-    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .jl-menu a:hover {
+    color: #2ccb69;
+  }
+
+  .jl-menu a::before {
+    content: "";
+    width: 0;
+    height: 4px;
+    background: #2ccb69;
+    display: block;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    transition: all 0.2s ease-out;
+  }
+
+  .jl-menu a:hover::before {
+    width: 100%;
   }
 }
 
