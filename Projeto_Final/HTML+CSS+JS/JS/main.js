@@ -4,8 +4,11 @@ let btnContact = document.querySelector(".jl-btn-contact");
 //Página de Loading
 window.addEventListener("load", function () {
   let pagePreloader = this.document.querySelector(".jl-preloader");
-
   pagePreloader.classList.add("jl-fade-out");
+
+  setTimeout(function () {
+    pagePreloader.style.display = "none";
+  }, 2000);
 });
 
 //Abrindo e fechando modal (contato)
