@@ -11,6 +11,12 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+
 @media screen and (min-width: 320px) {
   .jl-page-wrapper, .jl-preloader {
     width: 100%;
@@ -290,4 +296,8 @@ p {
 
 .jl-change-icon {
   background-position-y: -45px;
+}
+
+.jl-fade-out {
+  animation: fadeOut 2s forwards ease-out;
 }
