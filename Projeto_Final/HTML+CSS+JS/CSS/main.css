@@ -77,10 +77,56 @@ p {
     z-index: 200;
   }
 
+  .jl-contact-info-inner {
+    display: table;
+    width: 100%;
+    float: right;
+  }
+
+  .jl-contact-info-inner p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
   .jl-social-links {
     width: 100%;
     height: 45px;
     display: block;
+    position: relative;
+    left: -12px;
+    margin-top: 7px;
+  }
+
+  .jl-social {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+  }
+
+  .jl-social > img {
+    width: 20px;
+    height: auto;
+    display: block;
+    margin: 13px auto 0;
+  }
+
+  .jl-corner {
+    width: 25px;
+    height: 25px;
+    display: block;
+    float: right;
+    display: relative;
+  }
+
+  .jl-corner::after {
+    content: "";
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    bottom: -23px;
+    right: -0.5px;
+    background: transparent url(../IMAGES/corner.svg) no-repeat;
   }
 }
 
