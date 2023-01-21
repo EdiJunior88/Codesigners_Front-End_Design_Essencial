@@ -21,7 +21,7 @@ p {
   .jl-page-wrapper, .jl-preloader {
     width: 100%;
     height: 100vh;
-    display: block;
+    display: table;
     background: #1c1c1c;
     border: 30px solid #000;
   }
@@ -286,6 +286,16 @@ p {
 
 .jl-pad-left-15 {
   padding-left: 15px;
+}
+
+.jl-full-height {
+  height: 100vh;
+  background: red;
+  border-bottom: 5px solid blue;
+}
+
+.jl-first-section {
+  height: calc(100vh - 30px);
 }
 
 /* ########### CLASSES COMPORTAMENTAIS ########### */
