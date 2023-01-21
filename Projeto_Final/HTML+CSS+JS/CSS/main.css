@@ -18,7 +18,8 @@ p {
 }
 
 @media screen and (min-width: 320px) {
-  .jl-page-wrapper, .jl-preloader {
+  .jl-page-wrapper,
+  .jl-preloader {
     width: 100%;
     height: 100vh;
     display: table;
@@ -145,6 +146,17 @@ p {
     right: -0.5px;
     background: transparent url(../IMAGES/corner.svg) no-repeat;
   }
+
+  /* ---- HOME ----*/
+  .jl-display-text {
+    margin-top: 10%;
+  }
+
+  #jl-home-presentation {
+    background-image: url(../IMAGES/joao-lemon-designer-home.png);
+    background-position: 70% bottom;
+    background-repeat: no-repeat;
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -214,6 +226,10 @@ p {
 .jl-title {
   font-family: "Abril Fatface", serif;
   font-weight: 400;
+}
+
+.jl-title-big {
+  font-size: 120px;
 }
 
 .jl-text-green {
@@ -290,8 +306,6 @@ p {
 
 .jl-full-height {
   height: 100vh;
-  background: red;
-  border-bottom: 5px solid blue;
 }
 
 .jl-first-section {

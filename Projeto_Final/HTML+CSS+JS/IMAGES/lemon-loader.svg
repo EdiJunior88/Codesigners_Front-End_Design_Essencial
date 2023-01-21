@@ -4,21 +4,21 @@
 	 width="395.8px" height="380.2px" viewBox="0 0 395.8 380.2" style="enable-background:new 0 0 395.8 380.2;" xml:space="preserve"
 	>
 <style type="text/css">
-  @keyframes lineGrow {
-    to {
-      stroke-dashoffset: 0;
-    }
-  }
+	@keyframes lineGrow {
+		to{
+			stroke-dashoffset: 0;
+		}
+	}
 
 	.st0{
-    fill:none;
-    stroke:#2CCB69;
-    stroke-width:16;
-    stroke-miterlimit:10;
-    stroke-dasharray: 1500;
-    stroke-dashoffset: 1500;
-    animation: lineGrow 3s infinite ease-out;
-    }
+		fill:none;
+		stroke:#2CCB69;
+		stroke-width:16;
+		stroke-miterlimit:10;
+		stroke-dasharray: 1500;
+		stroke-dashoffset: 1500;
+		animation: lineGrow 3s infinite ease-out;
+	}
 </style>
 <g>
 	<g>
