@@ -86,6 +86,50 @@ p {
     left: 0;
   }
 
+  .jl-modal {
+    width: 800px;
+    position: fixed;
+    padding: 30px;
+    border-radius: 0 30px 30px 30px;
+    display: table;
+    top: 15%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1200;
+  }
+
+  .jl-modal-header {
+    width: 100%;
+    display: table;
+    position: relative;
+  }
+
+  .jl-close-modal {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #2f2f2f;
+    color: #2ccb69;
+    text-align: center;
+    line-height: center;
+    cursor: pointer;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+  }
+
+  .jl-overlay {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background: rgb(44, 203, 105, 0.95);
+  }
+
   .jl-topbar {
     width: 100%;
     height: 110px;
@@ -328,6 +372,7 @@ p {
   font-weight: 600;
   border: none;
   transition: all 0.2s ease-out;
+  text-transform: lowercase;
 }
 
 .jl-btn-small {
