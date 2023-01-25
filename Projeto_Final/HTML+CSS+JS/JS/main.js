@@ -1,5 +1,6 @@
 //Declarando variáveis
 let btnContact = document.querySelector(".jl-btn-contact");
+let toggleModal = document.querySelectorAll(".jl-toggle-modal");
 
 //Página de Loading
 window.addEventListener("load", function () {
@@ -11,9 +12,21 @@ window.addEventListener("load", function () {
   }, 2000);
 });
 
-//Abrindo e fechando modal (contato)
+//Abrindo e fechando modal (Contato)
 btnContact.addEventListener("click", function () {
   let boxContact = document.querySelector(".jl-contact-info");
   boxContact.classList.toggle("jl-is-open");
   this.classList.toggle("jl-change-icon");
 });
+
+//Abrindo e fechando modal (Orçamento)
+for (let i = 0; i < toggleModal.length; i++) {
+  toggleModal[i].addEventListener("click", function () {
+    let overlay = document.querySelector(".jl-overlay");
+    let modalOrcamento = document.querySelector("#jl-modal-orcamento");
+
+    overlay.classList.toggle("jl-is-open");
+    modalOrcamento.classList.toggle("jl-is-open");
+    modalOrcamento.classList.toggle("jl-slide-top-in");
+  });
+}
