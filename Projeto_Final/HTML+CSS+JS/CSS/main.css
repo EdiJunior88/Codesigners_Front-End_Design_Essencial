@@ -564,6 +564,10 @@ label {
   height: calc(100vh - 30px);
 }
 
+.jl-no-padding {
+  padding: 0 !important;
+}
+
 /* ########### CLASSES COMPORTAMENTAIS ########### */
 
 .jl-is-open {
