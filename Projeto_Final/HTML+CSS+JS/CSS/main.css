@@ -351,6 +351,51 @@ label {
   }
 }
 
+  /* ---- HOME ----*/
+
+  .jl-portfolio-navigator {
+    width: 145px;
+    height: 400px;
+    display: table;
+    background: red;
+    position: absolute;
+    left: 0;
+    top: 26vh;
+  }
+
+  .jl-item-counter {
+    width: 100%;
+    height: 90px;
+    display: block;
+    background: blue;
+    margin-bottom: 60px;
+  }
+
+  .jl-item-navigator {
+    width: 100%;
+    display: table;
+    background: greenyellow;
+  }
+
+  .jl-item-navigator a {
+    width: 20px;
+    height: 1px;
+    background: purple;
+    display: block;
+    margin-bottom: 80px;
+  }
+
+  .jl-item-navigator a:last-child {
+    margin-bottom: 30px;
+  }
+
+  .jl-portfolio-next-prev {
+    width: 100%;
+    height: 45px;
+    background: deeppink;
+    display: block;
+  }
+
 @media screen and (min-width: 576px) {
 }
 
@@ -558,6 +603,7 @@ label {
 
 .jl-full-height {
   height: 100vh;
+  position: relative;
 }
 
 .jl-first-section {
