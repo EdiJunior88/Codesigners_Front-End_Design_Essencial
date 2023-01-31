@@ -446,6 +446,25 @@ ion-icon {
   font-size: 32px;
 }
 
+.jl-slider-container {
+  width: 100%;
+  background: white;
+}
+
+.jl-slider-list {
+  width: auto;
+  height: 700px;
+  display: block;
+  background: deeppink;
+  list-style: none;
+}
+
+.jl-slider-item {
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+}
+
 @media screen and (min-width: 576px) {
 }
 
@@ -691,4 +710,24 @@ ion-icon {
 .jl-no-radius-right {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+}
+
+.red {
+  background: red;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.blue {
+  background: blue;
+}
+
+.purple {
+  background: purple;
+}
+
+.green {
+  background: green;
 }
