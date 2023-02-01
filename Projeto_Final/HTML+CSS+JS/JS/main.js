@@ -20,7 +20,6 @@ btnContact.addEventListener("click", function () {
 });
 
 //Abrindo e Fechando o Modal de Orcamento
-
 for (let i = 0; i < toggleModal.length; i++) {
   toggleModal[i].addEventListener("click", function () {
     let overlay = document.querySelector(".jl-overlay");
