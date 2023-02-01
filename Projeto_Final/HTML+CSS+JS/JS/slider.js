@@ -10,6 +10,7 @@ let sliderListWidth = null;
 const sliderTotalItems = sliderItem.length;
 let currentSlide = document.querySelector(".jl-current-slide");
 let totalSlide = document.querySelector(".jl-total-slide");
+let currentCounter = 1;
 
 //Fazendo Animação do Slider onClick
 let firstItem = document.querySelector(".jl-item-prev");
@@ -72,8 +73,31 @@ let counterFormatter = function (number) {
   }
 };
 
+//Counter Add
+let counterAdd = function () {
+  if (currentCounter >= 0 && currentCounter < sliderTotalItems) {
+    currentCounter++;
+    currentSlide.innerHTML = counterFormatter(currentCounter);
+  }
+};
+
+//Counter Remove
+let counterRemove = function () {
+  if (currentCounter > 1 && currentCounter <= sliderTotalItems) {
+    currentCounter--;
+    currentSlide.innerHTML = counterFormatter(currentCounter);
+  }
+};
+
 //ACTIONS
 totalSlide.innerHTML = counterFormatter(sliderTotalItems);
 
-nextItem.addEventListener("click", nextSlideAnim);
-firstItem.addEventListener("click", prevSlideAnim);
+nextItem.addEventListener("click", function () {
+  nextSlideAnim();
+  counterAdd();
+});
+
+firstItem.addEventListener("click", function () {
+  prevSlideAnim();
+  counterRemove();
+});
