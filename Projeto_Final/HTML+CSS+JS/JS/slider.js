@@ -12,6 +12,9 @@ let currentSlide = document.querySelector(".jl-current-slide");
 let totalSlide = document.querySelector(".jl-total-slide");
 let currentCounter = 1;
 
+//Linhas do NAV
+let navItems = document.querySelectorAll(".jl-item-navigator a");
+
 //Fazendo Animação do Slider onClick
 let firstItem = document.querySelector(".jl-item-prev");
 let nextItem = document.querySelector(".jl-item-next");
@@ -89,15 +92,36 @@ let counterRemove = function () {
   }
 };
 
+//Set Active Nav
+let setActiveNav = function () {
+  for (let nv = 0; nv < navItems.length; nv++) {
+    let myNavNumber = parseInt(navItems[nv].getAttribute("data-nav"));
+
+    if (myNavNumber === currentCounter) {
+      navItems[nv].classList.add("jl-item-active");
+    }
+  }
+};
+
+let changeActive = function () {
+  for (let rm = 0; rm < navItems.length; rm++) {
+    navItems[rm].classList.remove("jl-item-active");
+  }
+
+  setActiveNav();
+};
+
 //ACTIONS
 totalSlide.innerHTML = counterFormatter(sliderTotalItems);
 
 nextItem.addEventListener("click", function () {
   nextSlideAnim();
   counterAdd();
+  changeActive();
 });
 
 firstItem.addEventListener("click", function () {
   prevSlideAnim();
   counterRemove();
+  changeActive();
 });
