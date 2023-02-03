@@ -99,6 +99,11 @@ let setActiveNav = function () {
 
     if (myNavNumber === currentCounter) {
       navItems[nv].classList.add("jl-item-active");
+
+      anime({
+        targets: ".jl-item-active",
+        width: '90',
+      });
     }
   }
 };
@@ -106,6 +111,11 @@ let setActiveNav = function () {
 let changeActive = function () {
   for (let rm = 0; rm < navItems.length; rm++) {
     navItems[rm].classList.remove("jl-item-active");
+
+    anime({
+        targets: navItems[rm],
+        width: '20',
+      });
   }
 
   setActiveNav();
@@ -113,6 +123,11 @@ let changeActive = function () {
 
 //ACTIONS
 totalSlide.innerHTML = counterFormatter(sliderTotalItems);
+
+anime({
+  targets: ".jl-item-active",
+  width: '90',
+});
 
 nextItem.addEventListener("click", function () {
   nextSlideAnim();
