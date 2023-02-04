@@ -461,6 +461,21 @@ label {
     display: table;
     margin-top: 73px;
   }
+
+  .jl-portfolio-item-thumb {
+    width: 100%;
+    background: #2c2c2c;
+    display: table;
+    padding: 75px 0;
+  }
+
+  .jl-portfolio-item-thumb img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    left: -75px;
+  }
 }
 
 @media screen and (min-width: 576px) {
