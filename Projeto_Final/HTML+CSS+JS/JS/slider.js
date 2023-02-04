@@ -15,6 +15,9 @@ let currentCounter = 1;
 //Linhas do NAV
 let navItems = document.querySelectorAll(".jl-item-navigator a");
 
+//Número Interativo do NAV
+let navCounter = document.querySelector(".jl-navigator-counter span");
+
 //Fazendo Animação do Slider onClick
 let firstItem = document.querySelector(".jl-item-prev");
 let nextItem = document.querySelector(".jl-item-next");
@@ -81,6 +84,7 @@ let counterAdd = function () {
   if (currentCounter >= 0 && currentCounter < sliderTotalItems) {
     currentCounter++;
     currentSlide.innerHTML = counterFormatter(currentCounter);
+    navCounter.innerHTML = counterFormatter(currentCounter);
   }
 };
 
@@ -89,6 +93,7 @@ let counterRemove = function () {
   if (currentCounter > 1 && currentCounter <= sliderTotalItems) {
     currentCounter--;
     currentSlide.innerHTML = counterFormatter(currentCounter);
+    navCounter.innerHTML = counterFormatter(currentCounter);
   }
 };
 
@@ -102,7 +107,7 @@ let setActiveNav = function () {
 
       anime({
         targets: ".jl-item-active",
-        width: '90',
+        width: "90",
       });
     }
   }
@@ -113,9 +118,9 @@ let changeActive = function () {
     navItems[rm].classList.remove("jl-item-active");
 
     anime({
-        targets: navItems[rm],
-        width: '20',
-      });
+      targets: navItems[rm],
+      width: "20",
+    });
   }
 
   setActiveNav();
@@ -126,7 +131,7 @@ totalSlide.innerHTML = counterFormatter(sliderTotalItems);
 
 anime({
   targets: ".jl-item-active",
-  width: '90',
+  width: "90",
 });
 
 nextItem.addEventListener("click", function () {
