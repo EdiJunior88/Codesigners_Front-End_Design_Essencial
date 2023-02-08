@@ -53,6 +53,7 @@ let nextSlideAnim = function () {
   anime({
     targets: sliderList,
     translateX: sliderPos,
+    easing: "cubicBezier(0,1.01,.32,1)",
   });
 };
 
@@ -67,6 +68,7 @@ let prevSlideAnim = function () {
   anime({
     targets: sliderList,
     translateX: sliderPos,
+    easing: "cubicBezier(0,1.01,.32,1)",
   });
 };
 
@@ -113,6 +115,20 @@ let setActiveNav = function () {
   }
 };
 
+//Set Active Slide
+let setActiveSlide = function () {
+  for (let sld = 0; sld < sliderItem.length; sld++) {
+    let mySlideNumber = parseInt(sliderItem[sld].getAttribute("data-slide"));
+
+    if (mySlideNumber === currentCounter) {
+      sliderItem[sld].classList.add("jl-slide-active");
+      sliderItem[sld]
+        .querySelector(".jl-portfolio-item-box")
+        .classList.add("jl-scale-right");
+    }
+  }
+};
+
 let changeActive = function () {
   for (let rm = 0; rm < navItems.length; rm++) {
     navItems[rm].classList.remove("jl-item-active");
@@ -123,7 +139,12 @@ let changeActive = function () {
     });
   }
 
+  for (let rms = 0; rms < sliderItem.length; rms++) {
+    sliderItem[rms].classList.remove("jl-slide-active");
+  }
+
   setActiveNav();
+  setActiveSlide();
 };
 
 //ACTIONS
